@@ -1,0 +1,12 @@
+*{padding: 0; margin:0}
+.backGround, html {
+    
+background-image: url('../public/c48ae5b1-a592-4936-88d7-4270bb35fc34.jpg'); /* Reemplaza con la ruta correcta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  }

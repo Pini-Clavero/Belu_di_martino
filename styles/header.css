@@ -1,0 +1,55 @@
+.header {
+  padding: 6rem 0;
+  background-size: cover;
+  width: 100%;
+}
+
+.header .navegacion a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.4;
+}
+
+
+.contenedor {
+  background-color: black;
+      color: black;
+      width: min(100%, 100 rem);
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .imagen-header {
+    height: 30px;
+    max-width: auto;
+    display: flex;    
+    align-items: center;
+}
+  .words-header {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+  }
+  .words-header li {
+    display: inline;
+    margin-right: 8px;
+  }
+  .words-header.right {
+    text-align: right;
+    display: flex;
+    justify-content: right;
+  }
+  .words-header.left {
+    text-align: 2px;
+    margin-top: 0px;
+    display: flex;
+  }
+
+  .words-header a {
+    color: rgb(118, 101, 0);
+    font-size: 3px;
+    text-decoration: none;
+  }
+ 

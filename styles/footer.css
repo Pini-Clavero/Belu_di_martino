@@ -1,0 +1,59 @@
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 1px;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+.location {
+    font-weight: bold;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+.imagen {
+    height: auto;
+    max-width: 50px;
+    margin-bottom: -25px;
+    padding-left: 2px;
+    
+}
+.icons {
+    font-size: 6px;
+    display: flex;
+    gap: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 2px;
+    right: 8px;
+}
+
+.icons a {
+    color: white;
+    text-decoration: none;
+}
+
+.text {
+    font-size: 8px;
+    margin-top: auto;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 0;
+}
+
+.diseñadores {
+    font-size: 4px;
+    text-align: center;
+    margin-top: 30px;
+    
+    
+}
