@@ -7,49 +7,45 @@ import Biografia from '../pages/biografia'
 const Header = () => {
   return (
     <header>
-        <Link to="/">
-        <img className='imagen-header'src="../../public/BDMlogo-removebg-preview.png" alt="Logo" />
-        </Link>
-        
+       
        <nav >
         <div className='contenedor_header'>
-
-
+       
         <ul className='words-header left'>
 
           <li>
-            <Link to="/biografia">Biografia</Link>
-
+            <Link to="/dance">DANCE</Link>
           </li>
           <li>
-            <Link to="/dance">Dance</Link>
+            <Link to="/circus">CIRCUS</Link>
           </li>
           <li>
-            <Link to="./pages/inicio.jsx">Circus</Link>
+            <Link to="/aerealhoop">AERALHOOP</Link>
           </li>
           <li>
-            <Link to="./pages/inicio.jsx">Aerealhoop</Link>
-          </li>
-          <li>
-            <Link to="./pages/inicio.jsx">Straps</Link>
+            <Link to="/straps">STRAPS</Link>
           </li>
 
           <li   >
-            <Link to="./pages/inicio.jsx">Performance</Link>
+            <Link to="/performances">PERFORMANCES</Link>
           </li>
           <li>
-            <Link to="./pages/inicio.jsx">Teacher</Link>
+            <Link to="/teacher">TEACHER</Link>
           </li>
           <li>
-            <Link to="./pages/modelin.jsx">Modelin</Link>
+            <Link to="/modeling">MODELING</Link>
           </li>
           <li>
-            <Link to="./pages/polldance.jsx">Polldance</Link>
+            <Link to="/poledance">POLEDANCE</Link>
           </li>
           <li>
-            <Link to="./pages/contact.jsx">Contact</Link>
+            <Link to="./pages/contact.jsx">CONTACT</Link>
           </li>
-        </ul>
+        </ul> <Link to="/">
+        <img className='imagen-header'src="../../public/BDMlogo-removebg-preview.png" alt="Logo" />
+        </Link>
+        
+
         </div>
       </nav>
     </header>

@@ -8,14 +8,20 @@
    /* border-bottom: solid 15px #e5da6d;*/
 }
 .titular {
-    font-size: 75px;
-    color: #ffd333;
     position: relative;
-    bottom: 50px;
+    bottom: 80px;
     text-align: left;
-
-    
+    left: 5%;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+	font-size: 6em;
+	line-height: 150%;
+	color: rgba(0, 0, 0, 0.5);
+	-webkit-text-stroke: 2px #ffd333;
+	text-decoration: none;
+	display: block;
 }
+
 .flex_contenedor {
     display: flex;
 

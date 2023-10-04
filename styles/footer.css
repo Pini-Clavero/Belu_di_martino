@@ -17,7 +17,7 @@ footer{
 .location {
     font-weight: bold;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 2px;
 }
 .imagen {
@@ -42,17 +42,22 @@ footer{
 .icons a {
     color: white;
     text-decoration: none;
+    cursor: pointer;
+}
+.icons a:hover {
+    color: #ffd333;
 }
 
 .text {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: auto;
     margin-bottom: 15px;
+    left: 20px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     position: absolute;
-    margin: 10px;
+    margin: 20px;
     bottom: 0;
 }
 

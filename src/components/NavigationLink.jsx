@@ -30,12 +30,12 @@ const NavigationLink = () => {
                             </li>
                             <li>
                                 <div className="card">
-                                <Link to="/polldance">    <span className="model-name" data-text="POLE DANCE">POLE DANCE</span>    </Link> 
+                                <Link to="/poledance">    <span className="model-name" data-text="POLE DANCE">POLE DANCE</span>    </Link> 
                                 </div>
                             </li>
                             <li>
                                 <div className="card">
-                                <Link to="/strases">      <span className="model-name" data-text="STRAPS">STRAPS</span>      </Link> 
+                                <Link to="/straps">      <span className="model-name" data-text="STRAPS">STRAPS</span>      </Link> 
                                 </div>
                             </li>
                             <li>
@@ -45,12 +45,12 @@ const NavigationLink = () => {
                             </li>
                             <li>
                                 <div className="card">
-                                <Link to="/performance">         <span className="model-name" data-text="PERFORMANCE">PERFORMANCES</span>    </Link> 
+                                <Link to="/performances">         <span className="model-name" data-text="PERFORMANCES">PERFORMANCES</span>    </Link> 
                                 </div>
                             </li>
                             <li>
                                 <div className="card">
-                                <Link to="/modelin">      <span className="model-name" data-text="MODELING">MODELING</span>    </Link> 
+                                <Link to="/modeling">      <span className="model-name" data-text="MODELING">MODELING</span>    </Link> 
                                 </div>
                             </li>
                         </ul>
