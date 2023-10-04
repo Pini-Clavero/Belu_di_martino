@@ -1,0 +1,60 @@
+.fondo {
+    background-color: black;
+}
+
+.dance_banner {
+    width: 100%;
+    height: 100%;
+   /* border-bottom: solid 15px #e5da6d;*/
+}
+.titular {
+    font-size: 75px;
+    color: #ffd333;
+    position: relative;
+    bottom: 50px;
+    text-align: left;
+
+    
+}
+.flex_contenedor {
+    display: flex;
+
+}
+.parrafo {
+    text-align: justify;
+    columns: 2;
+    font-size: 20px;
+    width: 70%;
+    color: #fff;
+    margin: 80px;
+}
+.dance_imagen {
+    width: 20%;
+    margin: 40px;
+    border-radius: 5px;
+    border: solid 4px #e5da6d ;
+}
+.titular_galeria {
+    font-size: 45px;
+    font-family: "bluescreen";
+    color: #fff;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.galeria_imagenes {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+}
+.galeria_individual {
+    width: 70%;
+    margin-bottom: 50px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.galeria_individual:hover {
+    transform:  scale(1.4);
+}

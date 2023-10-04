@@ -1,37 +1,42 @@
+footer{
+    background-color: transparent;
+}
 .footer {
     background-color: black;
+    border: none;
     color: white;
     display: flex;
     padding: 1px;
     flex-direction: column;
     height: auto;
     position: relative;
+    bottom: 0px;
     width: 100%;
 }
 
 .location {
     font-weight: bold;
     text-align: center;
-    font-size: 10px;
+    font-size: 50px;
     margin-bottom: 2px;
 }
 .imagen {
     height: auto;
-    max-width: 50px;
-    margin-bottom: -25px;
-    padding-left: 2px;
+    max-width: 250px;
+    margin-bottom: 20px;
+    padding-left: 20px;
     
 }
 .icons {
-    font-size: 6px;
+    font-size: 30px;
     display: flex;
-    gap: 10px;
+    gap: 50px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     position: absolute;
-    bottom: 2px;
-    right: 8px;
+    bottom: 10px;
+    right: 40px;
 }
 
 .icons a {
@@ -40,20 +45,20 @@
 }
 
 .text {
-    font-size: 8px;
+    font-size: 40px;
     margin-top: auto;
-    margin-bottom: 3px;
+    margin-bottom: 15px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     position: absolute;
+    margin: 10px;
     bottom: 0;
 }
 
 .diseñadores {
-    font-size: 4px;
+    font-size: 20px;
     text-align: center;
-    margin-top: 30px;
-    
+    margin-top: 10px;
     
 }

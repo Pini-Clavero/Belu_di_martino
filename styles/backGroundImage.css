@@ -1,7 +1,7 @@
 *{padding: 0; margin:0}
-.backGround, html {
+.backGround {
     
-background-image: url('../public/c48ae5b1-a592-4936-88d7-4270bb35fc34.jpg'); /* Reemplaza con la ruta correcta de tu imagen */
+background-image: url('../public/c48ae5b1-a592-4936-88d7-4270bb35fc34.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -9,4 +9,44 @@ background-image: url('../public/c48ae5b1-a592-4936-88d7-4270bb35fc34.jpg'); /* 
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
+  z-index: 10;
+  }
+  .logo-backgroundImage{
+    height: 200px;
+    max-width: auto;
+   position: absolute;
+   right: 10px;
+   top: 5px;
+   transition: transform 0.3s ease-in-out;
+  }
+  .logo-backgroundImage:hover {
+    transform:  scale(1.05);
+  }
+  .biografia {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    background-color: black;
+    height: 100%;
+  }
+  .biografia_titulo {
+font-size: 60px;
+color: #ffd333;
+margin: 60px;
+margin-left: 220px;
+  }
+  .biografia_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+  }
+  .biografia_parrafo {
+      color: white;
+      width: 40%;
+      font-size: 25px;
+      padding-right: 80px;
+  }
+  .biografia_imagen {
+      width: 25%;
+      height: 25%;
   }

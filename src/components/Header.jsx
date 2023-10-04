@@ -2,22 +2,27 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import '../../styles/header.css'
 import inicio from '../pages/inicio'
-
+import Dance from '../pages/dance'
+import Biografia from '../pages/biografia'
 const Header = () => {
   return (
     <header>
-       <Router>
+        <Link to="/">
+        <img className='imagen-header'src="../../public/BDMlogo-removebg-preview.png" alt="Logo" />
+        </Link>
+        
        <nav >
-        <div className='contenedor'>
+        <div className='contenedor_header'>
 
 
         <ul className='words-header left'>
 
           <li>
-            <Link to="./pages/inicio.jsx">Biografia</Link>
+            <Link to="/biografia">Biografia</Link>
+
           </li>
           <li>
-            <Link to="./pages/inicio.jsx">Dance</Link>
+            <Link to="/dance">Dance</Link>
           </li>
           <li>
             <Link to="./pages/inicio.jsx">Circus</Link>
@@ -28,10 +33,7 @@ const Header = () => {
           <li>
             <Link to="./pages/inicio.jsx">Straps</Link>
           </li>
-        </ul>
-        <img className='imagen-header'src="../../public/BDMlogo-removebg-preview.png" alt="Logo" />
 
-        <ul className='words-header right'>
           <li   >
             <Link to="./pages/inicio.jsx">Performance</Link>
           </li>
@@ -47,11 +49,9 @@ const Header = () => {
           <li>
             <Link to="./pages/contact.jsx">Contact</Link>
           </li>
-        </ul> 
-         </div>
+        </ul>
+        </div>
       </nav>
-       </Router>
-       
     </header>
   )
 }

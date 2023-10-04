@@ -1,15 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import '../../styles/footer.css'
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
   return (
         <footer className="footer">
 
-            <div className='location'> Rosario, Argentina</div>
-         
-            <img className='imagen'src="../../public/BDMlogo-removebg-preview.png" alt="Logo" />
+            <div className='location'>Rosario, Argentina</div>
+            <Link to="/">
+
+            <img className='imagen'src="../../public/BDMlogo-removebg-preview.png" alt="Logo" /> </Link>
           <div className='text'>
                 <p>Belen Di Martino</p>
           </div> 
