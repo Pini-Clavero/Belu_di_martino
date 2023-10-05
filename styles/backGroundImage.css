@@ -69,3 +69,39 @@ text-decoration: none;
   width: 25%;
   height: 25%;
 }
+
+@media (max-width: 1025px ) {
+  .logo-backgroundImage {
+    height: 160px;
+    width: auto;
+  }}
+  @media (max-width: 769px ) {
+    .logo-backgroundImage {
+      height: 130px;
+      width: auto;
+    }
+  }
+  @media (max-width: 500px ) {
+    .logo {
+      width: 90%;
+    }
+    .biografia_titulo {
+      font-size: 2em;
+      margin: auto;
+      text-align: center;
+    }
+    .biografia_flex {
+
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+    }
+    .biografia_parrafo {
+      width: 90%;
+      font-size: 80%;
+      padding-right: 0px;
+    }
+    .biografia_imagen {
+      width: 80%;
+    }
+  }

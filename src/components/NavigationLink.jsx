@@ -30,7 +30,7 @@ const NavigationLink = () => {
                             </li>
                             <li>
                                 <div className="card">
-                                <Link to="/poledance">    <span className="model-name" data-text="POLE DANCE">POLE DANCE</span>    </Link> 
+                                <Link to="/poledance">    <span className="model-name" data-text="POLEDANCE">POLEDANCE</span>    </Link> 
                                 </div>
                             </li>
                             <li>

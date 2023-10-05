@@ -8,7 +8,6 @@ const Footer = () => {
   return (
         <footer className="footer">
 
-            <div className='location'>Rosario, Argentina</div>
             <Link to="/">
 
             <img className='imagen'src="../../public/BDMlogo-removebg-preview.png" alt="Logo" /> </Link>
