@@ -1,5 +1,5 @@
 .fondo {
-    background-color: black;
+    background-color: transparent;
 }
 
 .dance_banner {
@@ -27,12 +27,20 @@
 
 }
 .parrafo {
+    font-family: "Inter", sans-serif;
     text-align: justify;
+    text-shadow: 1px 1px black;
     columns: 2;
-    font-size: 20px;
+    font-size: 25px;
     width: 70%;
     color: #fff;
     margin: 80px;
+    padding: 3rem;
+    background-color: #ffffff13;
+    backdrop-filter: blur(5px);
+    border-right: solid 1px #ffffff31;
+    border-bottom: solid 1px #ffffff31;
+    
 }
 .dance_imagen {
     width: 20%;
@@ -41,12 +49,19 @@
     border: solid 4px #e5da6d ;
 }
 .titular_galeria {
-    font-size: 45px;
-    font-family: "bluescreen";
-    color: #fff;
+    position: relative;
+    bottom: 80px;
     text-align: left;
-    margin-left: 40px;
-    margin-bottom: 40px;
+    left: 5%;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+	font-size: 5em;
+	line-height: 150%;
+	color: rgba(0, 0, 0, 0.5);
+	-webkit-text-stroke: 2px #ffd333;
+	text-decoration: none;
+	display: block;
+    margin-top: 10%;
 }
 .galeria_imagenes {
     display: grid;
