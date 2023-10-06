@@ -73,3 +73,13 @@ header {
     color: #ffd333;
     -webkit-text-stroke: .2px black;
   }
+
+  @media (max-width: 1025px) {
+    .words-header{
+      scale: 0.3;
+    }
+    .imagen-header {
+      left: 500px;
+
+    }
+  }

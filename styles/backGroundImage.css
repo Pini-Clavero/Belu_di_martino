@@ -74,7 +74,9 @@ text-decoration: none;
   .logo-backgroundImage {
     height: 160px;
     width: auto;
-  }}
+  }
+}
+
   @media (max-width: 769px ) {
     .logo-backgroundImage {
       height: 130px;

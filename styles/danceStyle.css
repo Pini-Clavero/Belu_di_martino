@@ -79,3 +79,9 @@
 .galeria_individual:hover {
     transform:  scale(1.4);
 }
+
+@media (max-width: 1025px) {
+    .titular {
+        scale: 50%;
+    }
+}

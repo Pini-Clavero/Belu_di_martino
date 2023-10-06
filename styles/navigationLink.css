@@ -208,8 +208,11 @@ body {
 }
 @media (max-width: 1025px ) {
 		.void {
-			scale: 70%;
+			scale: 90%;
 		}
+		#card-list {
+			top: 60px;
+}
 }
 @media (max-width: 769px ) {
 	.void {
