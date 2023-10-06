@@ -12,7 +12,7 @@ function Dance() {
       <div className='contenedor'>
         <img className='dance_banner' src="/carrusel_dance.jpg" alt="dance banner" />
         
-          <h1 className='titular' >DANCE</h1>
+          <h1 className='titular scale-up-horizontal-center' >DANCE</h1>
         
       </div>
       <div className='flex_contenedor'>
