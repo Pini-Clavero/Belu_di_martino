@@ -69,6 +69,9 @@ text-decoration: none;
   width: 25%;
   height: 25%;
 }
+.biografia_instagram {
+  border-radius: 5px;
+}
 
 @media (max-width: 1025px ) {
   .logo-backgroundImage {
