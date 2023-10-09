@@ -2,7 +2,7 @@
 .scroll-arrow {
     position: fixed;
     bottom: 230px;
-    right: 30px;
+    margin: auto;
     cursor: pointer;
     z-index: 999;
     animation: fadeIn 2s ease; /* Animación de aparición */

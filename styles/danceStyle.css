@@ -20,7 +20,7 @@
     color: rgba(0, 0, 0, 0.5);
     -webkit-text-stroke: 2px #ffd333;
     text-decoration: none;
-    display: block;
+    display: inline-block;
 }
 
 
@@ -102,8 +102,10 @@
 .galeria_individual:hover {
     transform:  scale(1.4);
 }
+@media (max-width: 1445px) {
 
+}
 @media (max-width: 1025px) {
     .titular {
-        scale: 50%;
+        
     }}
