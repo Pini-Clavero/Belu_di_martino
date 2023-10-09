@@ -6,7 +6,6 @@ footer{
     border: none;
     color: white;
     display: flex;
-    padding: 1px;
     flex-direction: column;
     height: auto;
     position: relative;
@@ -14,12 +13,7 @@ footer{
     width: 100%;
 }
 
-.location {
-    font-weight: bold;
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 2px;
-}
+
 .imagen {
     height: auto;
     max-width: 250px;
@@ -28,7 +22,7 @@ footer{
     
 }
 .icons {
-    font-size: 30px;
+    font-size: 29px;
     display: flex;
     gap: 50px;
     display: flex;
@@ -36,7 +30,7 @@ footer{
     justify-content: flex-end;
     position: absolute;
     bottom: 10px;
-    right: 40px;
+    right: 50px;
 }
 
 .icons a {

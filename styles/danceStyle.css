@@ -4,7 +4,8 @@
 
 .dance_banner {
     width: 100%;
-    height: 100%;
+    height: 90vh;
+    object-fit: cover;
     /* border-bottom: solid 15px #e5da6d;*/
 }
 
@@ -62,8 +63,8 @@
 }
 
 .dance_imagen {
-    width: 20%;
-    margin: 40px;
+    width: 26%;
+    margin: 2%;
     border-radius: 5px;
     border: solid 4px #e5da6d;
 }
@@ -80,7 +81,7 @@
     color: rgba(0, 0, 0, 0.5);
     -webkit-text-stroke: 2px #ffd333;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     margin-top: 10%;
 }
 

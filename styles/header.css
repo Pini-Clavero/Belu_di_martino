@@ -26,10 +26,10 @@ header {
   }
   
   .imagen-header {
-    height: 200px;
+    height: 30vh;
     max-width: auto;
    position: relative;
-   left: 950px;
+   left: 840px;
    top: 50px;
    transition: transform 0.3s ease-in-out;
 }
@@ -41,11 +41,12 @@ header {
     font-weight: bold;
     position: absolute;
     left: 10px;
+    width: 100%;
   }
   .words-header li {
     display: inline-block;
-    margin-right: 30px;
-    margin-top: 20px;
+    margin-right: 2%;
+    margin-top: 2%;
     margin: auto;
     padding: 20px;
     
@@ -73,7 +74,15 @@ header {
     color: #ffd333;
     -webkit-text-stroke: .2px black;
   }
-
+  @media (max-width: 1445px) {
+    .words-header {
+      left: 0px;
+      scale: 0.9;
+    }
+    .imagen-header {
+left: 900px;
+    }
+  }
   @media (max-width: 1025px) {
     .words-header {
       font-size: 9px;

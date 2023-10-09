@@ -6,16 +6,16 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-        <footer className="footer">
+    <footer className="footer">
 
-            <Link to="/">
+      <Link to="/">
 
-            <img className='imagen'src="../../public/BDMlogo-removebg-preview.png" alt="Logo" /> </Link>
-          <div className='text'>
-                <p>Belen Di Martino</p>
-          </div> 
-             <div  className='icons'>
-            <a href="https://www.instagram.com/">
+        <img className='imagen' src="../../public/BDMlogo-removebg-preview.png" alt="Logo" /> </Link>
+      <div className='text'>
+        <p>Belen Di Martino</p>
+      </div>
+      <div className='icons'>
+        <a href="https://www.instagram.com/">
           <i className="fab fa-instagram"></i>
         </a>
         <a href="https://www.tiktok.com/">
@@ -27,13 +27,13 @@ const Footer = () => {
         <a href="https://wa.me/tunumerodetelefono">
           <i className="fab fa-whatsapp"></i>
         </a>
-        </div>
-          <div  >
-                <p className='diseñadores'>Clavero</p>
+      </div>
+      <div  >
+        <p className='diseñadores'>Clavero</p>
 
-          </div>
-        </footer>
-    )
+      </div>
+    </footer>
+  )
 }
 
 export default Footer
