@@ -73,10 +73,24 @@ header {
   }
   @media (max-width: 1445px) {
   }
-  @media (max-width: 1025px) {
-   
-    
-    .imagen-header {
+
+  @media (max-width: 600px) {
+    .words-header {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 40vw;
 
     }
-  }
+    .words-header a {
+    font-size: 5vw;
+    }
+  
+    .words-header li {
+      font-size: 7vw;
+    }  
+    .imagen-header {
+        height: 50vw;
+        left: 0vw;
+        top: 0vw;
+    }}
+    

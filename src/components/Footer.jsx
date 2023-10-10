@@ -14,6 +14,10 @@ const Footer = () => {
       <div className='text'>
         <p>Belen Di Martino</p>
       </div>
+      <div className='contact'>
+      <Link to="/contact" class="contact-button">Contact</Link>
+
+      </div>
       <div className='icons'>
         <a href="https://www.instagram.com/">
           <i className="fab fa-instagram"></i>

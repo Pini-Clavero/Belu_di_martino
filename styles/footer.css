@@ -9,28 +9,28 @@ footer{
     flex-direction: column;
     height: auto;
     position: relative;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
 }
 
 
 .imagen {
     height: auto;
-    max-width: 250px;
-    margin-bottom: 20px;
-    padding-left: 20px;
+    max-width: 20vw;
+    margin-bottom: 2vw;
+    padding-left: 4.5vw;
     
 }
 .icons {
-    font-size: 29px;
+    font-size: 2.9vw;
     display: flex;
-    gap: 50px;
+    gap: 5vw;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     position: absolute;
-    bottom: 10px;
-    right: 50px;
+    bottom: 1vw;
+    right: 5vw;
 }
 
 .icons a {
@@ -43,21 +43,52 @@ footer{
 }
 
 .text {
-    font-size: 30px;
+    font-size: 3vw;
     margin-top: auto;
-    margin-bottom: 15px;
-    left: 20px;
+    margin-bottom: 1.5vw;
+    left: 2vw;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     position: absolute;
-    margin: 20px;
+    margin: 2vw;
     bottom: 0;
 }
 
 .diseñadores {
-    font-size: 20px;
+    font-size: 2vw;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1vw;
     
+}
+
+@media (max-width: 600px) {
+ .footer{
+    height: 55vw;
+ }
+.imagen {
+    max-width: 75vw;
+    margin: auto ;
+}
+.text {
+    display: none;
+}
+
+    .icons {
+        font-size: 7vw;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: space-between; 
+        right: 5vw; 
+        bottom: auto; 
+        margin-top: 3.5vw;
+    }
+    .icons a {
+
+        margin-bottom: 1vw; /* Espacio entre iconos */
+    }
+    .diseñadores{
+        font-size: 4vw;
+        margin-top: 20vw;
+    }
 }
