@@ -9,7 +9,7 @@ function Aerealhoop() {
     <div className='fondo'>
       <Header />
       <div className='contenedor'>
-        <img className='dance_banner' src="/carrusel_dance.jpg" alt="dance banner" />
+        <img className='dance_banner' src="/circus-aerialhoop1.png" alt="dance banner" />
         <h1 className='titular scale-up-horizontal-center' > AEREALHOOP</h1>
       </div>
       <div className='flex_contenedor'>

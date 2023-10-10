@@ -12,7 +12,9 @@ function Teacher() {
         <h1 className='titular scale-up-horizontal-center' > TEACHER                 </h1>
       </div>
       <div className='flex_contenedor'>
-        <p className='parrafo'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las</p>
+        <p className='parrafo'>At the age of 15, I took the next step and delved into the world of art professionally. The theater in my city offered me the opportunity to study to become a dance teacher, an achievement that fills me with pride. As I advanced in my training as a dance teacher, I continued to hone my skills in the circus.
+<br></br>
+At 18, I earned my teaching degree and started sharing my knowledge as a dance teacher. My classes and workshops cover a wide range of styles, from Femme Style to Heels, Street Dance, Lyrical Jazz, and Contemporary Jazz. My passion for dance has allowed me to nurture generations of talented artists.</p>
         <img className='dance_imagen' src="/galeria1_dance.PNG" alt="dance imagen" />
       </div>
       <h2 className='titular_galeria'>GALLERY</h2>
