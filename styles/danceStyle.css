@@ -11,7 +11,7 @@
 
 .titular {
     position: relative;
-    bottom: 80px;
+    bottom:5vw;
     text-align: left;
     left: 5%;
     font-family: "Inter", sans-serif;
@@ -50,10 +50,10 @@
     text-align: justify;
     text-shadow: 1px 1px black;
     columns: 2;
-    font-size: 25px;
+    font-size: 2vw;
     width: 70%;
     color: #fff;
-    margin: 80px;
+    margin: 6vw;
     padding: 3rem;
     background-color: #ffffff13;
     backdrop-filter: blur(5px);
@@ -64,7 +64,7 @@
 
 .dance_imagen {
     width: 26%;
-    margin: 2%;
+    margin: 6%;
     border-radius: 5px;
     border: solid 4px #e5da6d;
 }
@@ -103,10 +103,19 @@
 .galeria_individual:hover {
     transform:  scale(1.4);
 }
-@media (max-width: 1445px) {
 
-}
 @media (max-width: 1025px) {
     .titular {
-        
-    }}
+        font-size: 8vw;
+    }
+    .dance_imagen{
+
+    }
+    .titular_galeria{
+        font-size: 8vw;
+
+    }
+}
+@media (max-width: 600px) {
+    logo
+}
