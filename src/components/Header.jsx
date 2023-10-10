@@ -39,7 +39,7 @@ const Header = () => {
             <Link to="/poledance">POLEDANCE</Link>
           </li>
           <li>
-            <Link to="./pages/contact.jsx">CONTACT</Link>
+            <Link to="/contact">CONTACT</Link>
           </li>
         </ul> <Link to="/">
         <img className='imagen-header'src="../../public/BDMlogo-removebg-preview.png" alt="Logo" />

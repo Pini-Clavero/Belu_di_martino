@@ -10,7 +10,7 @@ const NavigationLink = () => {
             <div className='navegacion_contenedor'>
                 <div className="void" id="void">
                     <div className="crop">
-                        <ul id="card-list" style={{ '--count': 8 }}>
+                        <ul id="card-list" style={{ '--count': 9 }}>
                             <li>
                                 <div className="card">
                                     
@@ -51,6 +51,11 @@ const NavigationLink = () => {
                             <li>
                                 <div className="card">
                                 <Link to="/modeling">      <span className="model-name" data-text="MODELING">MODELING</span>    </Link> 
+                                </div>
+                            </li>
+                            <li>
+                                <div className="card">
+                                <Link to="/contact">      <span className="model-name" data-text="CONTACT">CONTACT</span>    </Link> 
                                 </div>
                             </li>
                         </ul>
