@@ -15,6 +15,7 @@ import Poledance from './pages/poledance';
 import Straps from './pages/straps';
 import Teacher from './pages/teacher';
 import Biografia from './pages/biografia';
+import Contact from './pages/contact';
 import SplashScreen from './pages/splashScreen';
 import '../styles/style.css'
 function App() {
@@ -47,6 +48,7 @@ function App() {
           <Route path="/straps" element={<Straps />} />
           <Route path="/teacher" element={<Teacher />} />
           <Route path="/biografia" element={<Biografia />} />
+          <Route path="/contact" element={<Contact />} />
 
         </Routes>
 

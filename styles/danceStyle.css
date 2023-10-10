@@ -69,6 +69,106 @@
     border: solid 4px #e5da6d;
 }
 
+/* FORM */
+.contenedor_contact {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-around;
+}
+.icons-contact{
+    font-size: 40px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 40px;
+}
+.icons-contact a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.icons-contact a:hover {
+    color: #ffd333;
+}
+.form-content{
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: linear-gradient(
+        50deg,
+        rgb(0, 0, 0) 40%,
+        rgba(0, 0, 0, 0.3)
+    ), url(../public/contact_form.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10%;
+    width: 80%;
+}
+.form-content .form-h2{
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke: 1px #ffd333;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+label{
+    font-family: "Inter", sans-serif;
+    text-shadow: 1px 1px black;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+input , textarea{
+    padding: 10px 14px;
+    background-color: #ffffff13;
+    backdrop-filter: blur(5px);
+    border-right: solid 1px #ffffff31;
+    border-bottom: solid 1px #ffffff31;
+    font-family: "Inter", sans-serif;
+    text-shadow: 1px 1px black;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+:focus{
+    outline: 1px solid #ffd333;
+}
+.btn{
+    background-color: #ffd333;
+    width: 150px;
+    align-self: flex-end;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn:hover{
+    box-shadow: 0px 2px 15px #ffd333;
+}
+
+@media (max-width:991px){
+    .form-content{
+        padding: 5%;
+        width: 90%;
+    }
+    form{
+        width: 100%;
+    }
+}
+/* Finish FORM */
+
 .titular_galeria {
     position: relative;
     bottom: 80px;

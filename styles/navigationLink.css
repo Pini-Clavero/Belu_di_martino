@@ -1,6 +1,6 @@
 :root {
 	--rotate-speed: 40;
-	--count: 10; /* Default count, the DOM element should override this */
+	--count: 9; /* Default count, the DOM element should override this */
 	--easeInOutSine: cubic-bezier(0.37, 0, 0.63, 1);
 	--easing: cubic-bezier(0, 0.37, 1, 0.63);
 }
@@ -138,6 +138,11 @@ body {
 .void li:nth-child(8),
 .void li:nth-child(8) .card {
 	animation-delay: calc((var(--rotate-speed) / var(--count)) * -7s);
+}
+
+.void li:nth-child(9),
+.void li:nth-child(9) .card {
+	animation-delay: calc((var(--rotate-speed) / var(--count)) * -8s);
 }
 
 @keyframes rotateCW {
