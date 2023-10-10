@@ -61,6 +61,34 @@ footer{
     margin-top: 1vw;
     
 }
+.centerButton {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+    align-items: center;
+    height: 100%;
+}
+.contact-button {
+    position: absolute;
+    top: 2vw;
+    background-color: #fff; /* Color dorado */
+    color: black; /* Texto oscuro */
+    text-decoration: none;
+    padding: 1vw 3vw; /* Espaciado del botón */
+    border-radius: 3vw; /* Esquinas redondeadas */
+    font-size: 2vw; /* Tamaño de fuente */
+    font-weight: bold;
+    text-transform: uppercase; /* Texto en mayúsculas */
+    transition: background-color 0.3s ease; /* Efecto de transición al pasar el mouse */
+
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); 
+    border: none;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #e5da6d; 
+}
 
 @media (max-width: 600px) {
  .footer{
