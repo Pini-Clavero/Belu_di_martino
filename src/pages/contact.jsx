@@ -8,7 +8,7 @@ function Contact() {
     <div className='fondo'>
       <Header />
       <div className='contenedor'>
-        <img className='dance_banner' src="/carrusel_dance.jpg" alt="dance banner" />
+        <img className='dance_banner' src="/carrusel_dance2.jpg" alt="dance banner" />
         <h1 className='titular scale-up-horizontal-center' >CONTACT   </h1>
       </div>
       <div className='contenedor_contact'>
@@ -43,7 +43,7 @@ function Contact() {
           <label for="coments">Your Message</label>
           <textarea name='coments' id='coments' cols="30" rows="5"></textarea>
 
-          <input className='btn' type='submit' value="SEND"></input>
+          <input className='btn-form' type='submit' value="SEND"></input>
         </form>
 
       </div>
