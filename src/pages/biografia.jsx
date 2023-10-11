@@ -25,7 +25,7 @@ Today, I am a well-rounded dancer, capable of adapting to any style you may requ
 <br></br><br></br>
 I hope you enjoy my art as much as I enjoy creating it!</p>
       {/* <img className='biografia_imagen' src="/galeria1_dance.PNG" alt="dance imagen" />  */}
-      <iframe className='biografia_instagram' src="https://www.instagram.com/beluudimartino/embed/" width="350" height="450" frameborder="0"  scrolling="yes"></iframe>
+      <iframe className='biografia_instagram' src="https://www.instagram.com/beluudimartino/embed/" width="350" height="450" frameborder="0"  scrolling="no"></iframe>
 
       
         </div>

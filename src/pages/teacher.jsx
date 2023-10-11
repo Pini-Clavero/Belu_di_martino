@@ -8,7 +8,7 @@ function Teacher() {
     <div className='fondo'>
       <Header />
       <div className='contenedor'>
-        <img className='dance_banner' src="/teacher.png" alt="dance banner" />
+        <img className='dance_banner' src="/teacher.PNG" alt="dance banner" />
         <h1 className='titular scale-up-horizontal-center' > TEACHER                 </h1>
       </div>
       <div className='flex_contenedor'>
