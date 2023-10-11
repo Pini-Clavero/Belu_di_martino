@@ -5,9 +5,9 @@ import BackGroundPages from '../components/BackGroundPages'
 import '../../styles/danceStyle.css'
 function Contact() {
   return (
-    <div className='fondo'>
+    <div  className='fondo'>
       <Header />
-      <div className='contenedor'>
+      <div className='contenedor' >
         <img className='dance_banner' src="/carrusel_dance.jpg" alt="dance banner" />
         <h1 className='titular scale-up-horizontal-center' >CONTACT                   </h1>
       </div>
@@ -29,16 +29,16 @@ I'm excited to bring art and entertainment to your world. Contact me today, and 
 
  </p>
         <div className='icons-contact'>
-          <a href="https://www.instagram.com/">
+          <a href="https://www.instagram.com/beluudimartino/">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="https://www.tiktok.com/">
+          <a href="https://www.tiktok.com/@beluudimartino.dm">
             <i className="fab fa-tiktok"></i>
           </a>
-          <a href="mailto:tuemail@gmail.com">
+          <a href="mailto:bdmbelendimartino@gmail.com">
             <i className="fas fa-envelope"></i>
           </a>
-          <a href="https://wa.me/tunumerodetelefono">
+          <a href="https://wa.me/3425355956">
             <i className="fab fa-whatsapp"></i>
           </a>
         </div>

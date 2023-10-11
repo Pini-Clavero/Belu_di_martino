@@ -3,7 +3,7 @@ import '../../styles/backGroundImage.css'
 const Biografia = () => {
   return (
     <div  className='biografia'>
-      <h1 className='biografia_titulo'>SOBRE MI</h1>
+      <h1 className='biografia_titulo'>ABOUT ME </h1>
       <div className='biografia_flex'>
    <p className='biografia_parrafo'>Greetings! I'm Belu Di Martino, and my life is an exciting blend of art and creativity. From my childhood, my heart has beaten to the rhythm of dance and circus.
 <br></br>

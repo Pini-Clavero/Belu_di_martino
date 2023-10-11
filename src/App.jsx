@@ -19,16 +19,8 @@ import Contact from './pages/contact';
 import SplashScreen from './pages/splashScreen';
 import '../styles/style.css'
 function App() {
-  const [scrolling, setScrolling] = useState(false);
 
-  const handleScrollClick = () => {
-    setScrolling(true);
-    // Desplazamiento suave hacia abajo
-    window.scrollTo({
-      top: window.innerHeight, // Desplázate a la altura de la ventana
-      behavior: 'smooth', // Hace que el desplazamiento sea suave
-    });
-  };
+  
   return (
     <div className="App">
     <Router>
@@ -56,12 +48,7 @@ function App() {
         
       </div>
     </Router>
-       {/* Flecha de desplazamiento */}
-       {!scrolling && (
-        <div className="scroll-arrow" onClick={handleScrollClick}>
-          <div className="arrow-down"></div>
-        </div>
-      )}
+  
     </div>
   );
 }
