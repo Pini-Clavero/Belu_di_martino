@@ -14,7 +14,7 @@ const Footer = () => {
       <div className='text'>
         <p>Belen Di Martino</p>
       </div>
-      <div className='contact'>
+      <div  className='centerButton'>
       <Link to="/contact" class="contact-button">Contact</Link>
 
       </div>
