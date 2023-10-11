@@ -62,7 +62,7 @@ header {
     font-weight: 900;
 	font-size: 1.5vw;
 	line-height: 100%;
-	color: transparent;
+	color: rgba(0, 0, 0, 0.3);
 	-webkit-text-stroke: 1px #ffd333;
 	text-decoration: none;
   min-width:content ;
