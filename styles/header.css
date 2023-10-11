@@ -89,7 +89,8 @@ header {
       font-size: 7vw;
     }  
     .imagen-header {
-        height: 50vw;
+        height: auto;
+        width: 100%;
         left: 0vw;
         top: 0vw;
     }}

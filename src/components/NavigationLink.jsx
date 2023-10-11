@@ -25,7 +25,7 @@ const NavigationLink = () => {
                             </li>
                             <li>
                                 <div className="card">
-                                <Link to="/aerealhoop">    <span className="model-name" data-text="AEREALHOOP">AERIEALHOOP</span>   </Link> 
+                                <Link to="/aerealhoop">    <span className="model-name" data-text="AERIALHOOP">AERIALHOOP</span>   </Link> 
                                 </div>
                             </li>
                             <li>

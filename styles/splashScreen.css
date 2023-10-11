@@ -23,6 +23,13 @@
     pointer-events: auto;
   }
   .splash-screen img {
-    width: 50%; 
+    width: 70%; 
     height: auto; 
+  }
+
+  @media (max-width: 600px) {
+    .splash-screen img {
+      width: 90%; 
+      height: auto; 
+    }
   }

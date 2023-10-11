@@ -44,7 +44,7 @@ I'm excited to bring art and entertainment to your world. Contact me today, and 
         </div>
       </div>
       <div className='form-content'>
-        <h2 className='form-h2'>SEND ME AN EMAIL</h2>
+        <h2 className='form-h2'>SEND ME A MESSAGE </h2>
         <form action="https://formsubmit.co/bdm.website23@gmail.com" method="POST">
           <label for="name">Full Name</label>
           <input type='text' name='name' id='name'></input>
