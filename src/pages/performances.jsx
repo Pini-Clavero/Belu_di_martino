@@ -13,7 +13,7 @@ function Performances() {
         <h1 className='titular scale-up-horizontal-center' >PERFORMANCES                       </h1>
       </div>
       <div className='flex_contenedor'>
-        <p className='parrafo'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las</p>
+        <p className='parrafo'>The harmonious fusion of dance and acrobatics has opened doors to a world of breathtaking performances at various events across my country. Below, you'll find a compilation of artistic highlights from some of these extraordinary shows.</p>
         <img className='dance_imagen' src="/galeria1_dance.PNG" alt="dance imagen" />
       </div>
       <h2 className='titular_galeria'>GALLERY</h2>

@@ -11,33 +11,48 @@ function Dance() {
       <Header />
       <div className='contenedor'>
         <img className='dance_banner' src="/carrusel_dance2.jpg" alt="dance banner" />
-        
-          <h1 className='titular scale-up-horizontal-center' >DANCE</h1>
-        
+
+        <h1 className='titular scale-up-horizontal-center' >DANCE</h1>
+
       </div>
       <div className='flex_contenedor'>
-        <div className='cardBox'> 
-        <p className='parrafo'>Mi viaje en el mundo del arte comenzó a la temprana edad de 8 años, cuando mi madre me llevó a mis primeras clases de danza: danza clásica, contemporáneo y jazz. En ese preciso momento, supe que había descubierto mi verdadero lugar en el mundo.
-<br></br>
-A los 15 años, di un paso más allá y comencé a sumergirme en el mundo del arte de manera profesional. El teatro de mi ciudad me brindó la oportunidad de estudiar para ser profesora de danza, un logro que me llena de orgullo. Mientras avanzaba en mi formación como maestra de danzas, continué perfeccionando mis habilidades en el circo.
-<br></br>
-A los 18 años, obtuve mi título y empecé a compartir mis conocimientos como maestra de danza. Mis clases y seminarios abarcan una amplia gama de estilos, desde Femme Style hasta Heels, Street Dance, Lyrical Jazz y Jazz Contemporáneo. Mi pasión por la danza me ha permitido formar a generaciones de talentosos artistas.</p>
+        <div className='cardBox'>
+          <p className='parrafo'>Dance has always been my first love within the world of art, and it's a fundamental part of all my aerial performances. I consider myself a versatile dancer, capable of seamlessly adapting to a wide range of dance styles, from urban and contemporary to technical precision. In my videos, you'll witness the beauty of various dance forms, including but not limited to:
+            <br></br>
+            <strong>Femme Style</strong>: I infuse femininity, strength, and grace into my movements, creating a unique and captivating dance style.
+            <br></br>
+            <strong>Contemporary Dance</strong>: My interpretations are a fusion of emotion and technique, painting stories through fluid and innovative choreography.
+            <br></br>
+            <strong>Jazz</strong>: The rhythm and energy of jazz dance are an integral part of my artistic expression.
+            <br></br>
+            <strong>Urban Dance</strong>: I embrace urban dance forms, bringing their vibrant and contemporary energy to the stage.
+            <br></br>
+            <strong>Acrodance</strong>: The harmony of dance and acrobatics combine to create captivating performances.
+            <br></br>
+            <strong>Heels</strong>: I add a touch of glamour and sass with dance in heels, showcasing elegance and confidence.
+            <br></br>
+            <strong>Street Dance</strong>: The streets inspire me, and I love to bring street dance culture to the stage.
+            <br></br>
+            <strong>Lyrical Jazz</strong>: Through lyrical jazz, I evoke emotions and stories, using dance as a powerful medium.
+            <br></br><br></br>
+            My dance journey has been a beautiful exploration of movement and expression. I invite you to explore my world of dance through these videos, each a testament to the vibrant, versatile, and passionate artist I am.
+          </p>
         </div>
         <img className='dance_imagen' src="/galeria1_dance.PNG" alt="dance imagen" />
       </div>
       <div className='contenedor'>
 
-      <h2 className='titular_galeria'>GALLERY</h2>
-      <div className='galeria_imagenes'>
-        <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
-        <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
-        <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
-        <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
-        <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
-        <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
-        <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
-        <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
-      </div>
+        <h2 className='titular_galeria'>GALLERY</h2>
+        <div className='galeria_imagenes'>
+          <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
+          <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
+          <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
+          <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
+          <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
+          <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
+          <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
+          <img className='galeria_individual' src="/galeria1_dance.PNG" alt="dance imagen" />
+        </div>
       </div>
       <BackGroundPages />
     </div>

@@ -17,7 +17,17 @@ function Contact() {
      
       </div>
       <div className='contenedor_contact'>
-        <p className='parrafo'>Can you contact me for contract mys services, performarce in shows, birdays, partys. and you cant talck to me by social medias. </p>
+        <p className='parrafo'>Hello, it's Belu Di Martino, and I can't wait to be a part of your next special event or project! If you're looking to add a touch of artistry and grace to your occasion, you're in the right place.
+<br></br><br></br>
+I offer a range of captivating performances, from mesmerizing aerial shows to dynamic dance routines. My journey in the world of dance and circus arts has been nothing short of extraordinary, and I'm here to share that magic with you.
+<br></br>
+I believe in making each performance unique to your vision. Your event should be as special as you are, and I'm here to ensure it's an unforgettable experience for you and your guests.
+<br></br>
+Please don't hesitate to get in touch with me. Let's discuss your ideas, requirements, and any questions you may have. Together, we can create something extraordinary that will leave a lasting impression.
+<br></br><br></br>
+I'm excited to bring art and entertainment to your world. Contact me today, and let's get started on this magical journey.
+
+ </p>
         <div className='icons-contact'>
           <a href="https://www.instagram.com/">
             <i className="fab fa-instagram"></i>

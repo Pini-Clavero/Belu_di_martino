@@ -12,9 +12,9 @@ function Circus() {
         <h1 className='titular scale-up-horizontal-center' >CIRCUS                    </h1>
       </div>
       <div className='flex_contenedor'>
-        <p className='parrafo'>A los 20 años, la oportunidad de unirse a un circo de renombre en mi país, de larga tradición circense, tocó a mi puerta. Durante un año y medio, recorrimos todo el país, llevando la magia del circo a audiencias de todas las edades. Esta experiencia profundizó mi conexión con el mundo circense y me brindó la oportunidad de perfeccionar mis habilidades en técnicas aéreas.
-<br></br>
-Después de mi gira nacional, mi carrera circense me llevó más allá de las fronteras de mi país. Tuve la fortuna de aprender de acróbatas de todo el mundo en circos internacionales en Sudamérica. Esto me permitió crear números de circo tradicional mientras también exploraba el circo contemporáneo.</p>
+        <p className='parrafo'>At 20, the opportunity to join a renowned circus in my country, with a long circus tradition, came knocking on my door. For a year and a half, we toured the entire country, bringing the magic of the circus to audiences of all ages. This experience deepened my connection to the circus world and allowed me to perfect my skills in aerial techniques.
+          <br></br><br></br>
+          Following my national tour, my circus career took me beyond the borders of my country. I had the good fortune to learn from acrobats from all over the world in international circuses in South America. This allowed me to create traditional circus acts while also exploring the contemporary circus.</p>
         <img className='dance_imagen' src="/galeria1_dance.PNG" alt="dance imagen" />
       </div>
       <h2 className='titular_galeria'>GALLERY</h2>
