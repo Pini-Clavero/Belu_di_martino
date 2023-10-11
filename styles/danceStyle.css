@@ -85,7 +85,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 40px;
 }
 .icons-contact a {
@@ -247,4 +247,23 @@ input:focus, textarea:focus{
         transform: none
     }
  
+    }
+    @media (max-width: 600px) {
+        label{
+            font-size: 18px;
+        }
+        .contenedor_contact{
+            margin-bottom: 10px;
+        }
+    .btn-form{
+        font-size: 3.5vw;
+    }
+    .form-content .form-h2{
+        font-size: 20px;
+        } 
+           form {
+    scale: 85%;
+    padding: 10%, 10%, 0%, 10%;
+    margin-bottom: 0px;
+}
     }

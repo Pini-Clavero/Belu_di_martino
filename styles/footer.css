@@ -1,6 +1,4 @@
-footer{
-    background-color: transparent;
-}
+
 .footer {
     background-color: black;
     border: none;
@@ -64,14 +62,14 @@ footer{
 .centerButton {
     display: flex;
     justify-content: flex-end;
-    padding-right: 150px;
+    padding-right: 9vw;
     align-items: center;
     height: 100%;
 }
 .contact-button {
     position: absolute;
     top: 2vw;
-        width: 150px;
+        width: 15vw;
         font-family: "Inter", sans-serif;
     background-color: #ffd333;
     color: black; 
@@ -89,10 +87,19 @@ footer{
 .contact-button:hover {
     box-shadow: 0px 2px 15px #ffd333;
 }
+@media (max-width: 780px) {
+    .contact-button{
+        font-size: 1.5vw;
+        margin: 0px 0px 7.5px;
+        padding: 10px 14px;
+        width: 100px;
+        
+    }
+}
 
 @media (max-width: 600px) {
  .footer{
-    height:40vh;
+    height:55vw;
  }
 .imagen {
     max-width: 75vw;
@@ -117,16 +124,16 @@ footer{
     }
     .diseñadores{
         font-size: 4vw;
-        margin-top: 20vw;
     }
   .centerButton{
    position: relative;
-  }
+   justify-content: center;
+    padding-right: 0px;
+}
   .contact-button {
-    font-size: 2.5vw;
-    width: 150px;
-    padding: 10px 14px;
+    font-size: 3.5vw;
     border-radius: 10px;
+    
 }
 .flex_designers {
     display: inline-block;
