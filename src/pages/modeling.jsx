@@ -8,7 +8,7 @@ function Modeling() {
     <div className='fondo'>
       <Header />
       <div className='contenedor'>
-        <img className='dance_banner' src="/carrusel_dance.jpg" alt="dance banner" />
+        <img className='dance_banner' src="/modeling.png" alt="dance banner" />
         <h1 className='titular scale-up-horizontal-center' >MODELING                        </h1>
       </div>
       <div className='flex_contenedor'>
