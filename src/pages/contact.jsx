@@ -5,9 +5,9 @@ import BackGroundPages from '../components/BackGroundPages'
 import '../../styles/danceStyle.css'
 function Contact() {
   return (
-    <div className='fondo'>
+    <div  className='fondo'>
       <Header />
-      <div className='contenedor'>
+      <div className='contenedor' >
         <img className='dance_banner' src="/carrusel_dance.jpg" alt="dance banner" />
         <h1 className='titular scale-up-horizontal-center' >CONTACT                   </h1>
       </div>

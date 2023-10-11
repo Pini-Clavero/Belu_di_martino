@@ -32,7 +32,7 @@ const Footer = () => {
           <i className="fab fa-whatsapp"></i>
         </a>
       </div>
-      <div  >
+      <div  className='flex_designers'>
         <p className='diseñadores'>Clavero</p>
 
       </div>
