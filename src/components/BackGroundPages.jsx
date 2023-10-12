@@ -3,7 +3,7 @@ import "../../styles/backGroundPages.css"
 
 function BackGroundPages() {
     return (
-        <div class="backgroundPages">
+        <div className="backgroundPages">
    <span></span>
    <span></span>
    <span></span>

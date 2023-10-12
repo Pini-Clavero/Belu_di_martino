@@ -1,3 +1,4 @@
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import '../../styles/footer.css'
@@ -5,17 +6,23 @@ import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
+
+  const handleContactClick = () => {
+    
+    // Llevar la página a la parte superior
+    window.scrollTo(0, 0);
+  };
   return (
     <footer className="footer">
 
       <Link to="/">
 
-        <img className='imagen' src="../../public/BDMlogo-removebg-preview.png" alt="Logo" /> </Link>
+        <img className='imagen' onClick={handleContactClick} src="../../public/BDMlogo-removebg-preview.png" alt="Logo" /> </Link>
       <div className='text'>
         <p>Belen Di Martino</p>
       </div>
       <div  className='centerButton'>
-      <Link to="/contact" class="contact-button">Contact</Link>
+      <Link to="/contact" onClick={handleContactClick} className="contact-button">Contact</Link>
 
       </div>
       <div className='icons'>

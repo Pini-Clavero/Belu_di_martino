@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import BackGroundPages from '../components/BackGroundPages'
 import '../../styles/danceStyle.css'
+
 function Contact() {
   return (
     <div  className='fondo'>
@@ -46,16 +47,16 @@ I'm excited to bring art and entertainment to your world. Contact me today, and 
       <div className='form-content'>
         <h2 className='form-h2'>SEND ME A MESSAGE </h2>
         <form action="https://formsubmit.co/bdm.website23@gmail.com" method="POST">
-          <label for="name">Full Name</label>
+          <label htmlFor="name">Full Name</label>
           <input type='text' name='name' id='name'></input>
 
-          <label for="email">Email</label>
+          <label htmlFor="email">Email</label>
           <input type='text' name='email' id='email'></input>
 
-          <label for="subject">Subject</label>
+          <label htmlFor="subject">Subject</label>
           <input type='text' name='subject' id='subject'></input>
 
-          <label for="coments">Your Message</label>
+          <label htmlFor="coments">Your Message</label>
           <textarea name='coments' id='coments' cols="30" rows="5"></textarea>
 
           <input className='btn-form' type='submit' value="SEND"></input>
@@ -64,7 +65,7 @@ I'm excited to bring art and entertainment to your world. Contact me today, and 
       </div>
       <BackGroundPages />
     </div>
-  )
+ )
 }
 
 export default Contact
