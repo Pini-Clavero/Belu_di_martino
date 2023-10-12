@@ -16,7 +16,7 @@ import Straps from './pages/straps';
 import Teacher from './pages/teacher';
 import Biografia from './pages/biografia';
 import Contact from './pages/contact';
-import SplashScreen from './pages/splashScreen';
+import SplashScreen from './pages/SplashScreen';
 import '../styles/style.css'
 function App() {
 
